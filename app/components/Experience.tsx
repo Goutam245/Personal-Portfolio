@@ -3,24 +3,23 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Senior Frontend Engineer',
-      company: 'TechCorp International',
-      location: 'Remote (US Client)',
-      duration: 'Jan 2023 - Present',
-      description: 'Lead frontend architect for enterprise applications serving 10,000+ users. Achieved 30% performance optimization and mentored 12 junior developers.',
+      title: 'Frontend Engineer',
+      company: 'Tech Solutions Ltd',
+      location: 'Dhaka, Bangladesh',
+      duration: 'Dec 2024 - Jun 2025',
+      description: 'Lead frontend architect for enterprise applications serving 1000+ users. Achieved 30% performance optimization and mentored 12 junior developers.',
       achievements: [
-        'Architected scalable React applications with 99.9% uptime',
-        'Reduced bundle size by 40% through code splitting and optimization',
-        'Implemented comprehensive testing strategy (95% coverage)',
-        'Led cross-functional team of 8 engineers across 3 time zones'
+        'Engineered 8+ scalable, responsive enterprise web applications using React.js, Next.js, and TypeScript',
+        'Documented 20+ RESTful APIs using Swagger/OpenAPI, reducing developer onboarding time by 35%.',
+        'Optimized application startup time by 40%, improving Lighthouse performance and overall user experience'
       ],
       tech: ['React 18', 'Next.js 14', 'TypeScript', 'GraphQL', 'AWS']
     },
     {
-      title: 'Frontend Developer',
-      company: 'Digital Solutions Ltd',
+      title: 'Junior Frontend Developer',
+      company: 'Brain Station 23',
       location: 'Dhaka, Bangladesh',
-      duration: 'Jun 2022 - Dec 2022',
+      duration: 'May 2024 - Nov 2024',
       description: 'Developed responsive web applications and contributed to open-source projects. Maintained 96% client satisfaction across multiple projects.',
       achievements: [
         'Built 15+ responsive web applications from scratch',
@@ -34,7 +33,7 @@ export default function Experience() {
       title: 'Full Stack Developer Intern',
       company: 'StartupHub',
       location: 'Dhaka, Bangladesh',
-      duration: 'Jan 2022 - May 2022',
+      duration: 'Jan 2024 - Mar 2024',
       description: 'Gained hands-on experience in full-stack development and contributed to multiple client projects under senior mentorship.',
       achievements: [
         'Developed MVP for 3 startup clients',
@@ -43,6 +42,18 @@ export default function Experience() {
         'Received outstanding performance recognition'
       ],
       tech: ['JavaScript', 'React', 'Express.js', 'MongoDB', 'Git']
+    },
+    {
+      title: 'UI/UX Design Intern',
+      company: 'CreativeCode Studio',
+      location: 'Dhaka, Bangladesh',
+      duration: 'May 2023 - July 2023',
+      description: 'Delivered UI/UX solutions for multiple client projects while developing core design expertise under senior guidance',
+      achievements: [
+        'Designed and prototyped web-ready UI assets in Figma for cross-platform applications.',
+        'Aligned brand visuals and components with developer handoff standards, improving team workflow by 15%.',
+      ],
+      tech: ['Figma', 'Adobe Creative Suite', 'Prototyping', 'Design Systems', 'Responsive Design']
     }
   ];
 

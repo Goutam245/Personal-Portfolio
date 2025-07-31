@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { SiLeetcode } from "react-icons/si";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -66,16 +67,22 @@ export default function Contact() {
       action: 'tel:+8801747593452'
     },
     {
-      icon: 'ri-linkedin-line',
+      icon: 'ri-expand-left-right-line',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/goutam-roy',
-      action: 'https://linkedin.com/in/goutam-roy'
+      value: 'leetcode.com/in/Goutam57',
+      action: 'https://leetcode.com/u/Goutam57/'
     },
+    // {
+    //   icon: 'ri-linkedin-line',
+    //   title: 'LinkedIn',
+    //   value: 'linkedin.com/in/goutam-roy',
+    //   action: 'https://linkedin.com/in/goutam-roy'
+    // },
     {
       icon: 'ri-github-line',
       title: 'GitHub',
-      value: 'github.com/goutam-roy',
-      action: 'https://github.com/goutam-roy'
+      value: 'github.com/goutam-roy/Goutam245',
+      action: 'https://github.com/Goutam245'
     }
   ];
 
@@ -96,7 +103,7 @@ export default function Contact() {
             Let's Connect
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to contribute to world-class technology teams. Open to opportunities at top-tier companies.
+            Available for senior engineering roles at leading technology organizations driving global innovation.
           </p>
         </div>
 
@@ -303,7 +310,7 @@ export default function Contact() {
                 Schedule Interview
               </a>
               <a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1HEbPfoo1UtgVny7dxxIw23gRrexM-FkN/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors duration-200 cursor-pointer whitespace-nowrap"

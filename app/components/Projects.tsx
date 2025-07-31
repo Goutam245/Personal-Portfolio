@@ -4,6 +4,48 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Global Weather Intelligence Platform',
+      description: 'Production-ready weather application delivering real-time meteorological data across 200,000+ cities worldwide. Optimized for instant weather insights with seamless user experience.',
+      image: 'https://i.ibb.co/Jw65vyQj/Weather.jpg',
+      tech: ['JavaScript', 'HTML5 CSS3', 'OpenWeather API', 'Geolocation API', 'Responsive Design'],
+      features: [
+        'Real-time API integration with OpenWeather',
+        'Intelligent city search with autocomplete',
+        'Dynamic weather-based UI adaptation',
+        'Local timezone synchronization',
+        'Geolocation-based detection'
+      ],
+      metrics: {
+        cities: '200,000+',
+        response: '<500ms',
+        reliability: '99.8%'
+      },
+      github: 'https://github.com/Goutam245/Weather-app',
+      demo: 'https://weather-app-fxjo.vercel.app/',
+      status: 'Production-Ready'
+    },
+    {
+      title: 'Professional CV Builder SaaS',
+      description: 'SaaS platform serving 10,000+ users with 90+ developers adoption. Reduced manual formatting by 80% with viral adoption in developer communities.',
+      image: 'https://i.ibb.co/Mx4CYh0b/Cv.jpg',
+      tech: ['React', 'PDF Generation', 'LocalStorage', 'Template System', 'Real-time Preview'],
+      features: [
+        'Multiple template system',
+        'Real-time preview',
+        'PDF export functionality',
+        'Local storage optimization',
+        'Viral adoption features'
+      ],
+      metrics: {
+        users: '1000+',
+        developers: '90+',
+        efficiency: '80% faster'
+      },
+      github: 'https://github.com/Goutam245/Resume-Builder-Web-Site',
+      demo: 'https://resume-builder-web-site.vercel.app/',
+      status: 'SaaS Platform'
+    },
+    {
       title: 'Cryptocurrency Trading Dashboard',
       description: 'Production-ready real-time data visualization platform for crypto trading decisions. Handles 1000+ concurrent users with sub-second data updates.',
       image: 'https://readdy.ai/api/search-image?query=Professional%20cryptocurrency%20trading%20dashboard%20interface%20with%20real-time%20charts%20and%20data%20visualization%2C%20dark%20theme%20with%20blue%20and%20green%20accents%2C%20modern%20financial%20trading%20platform%20design%2C%20clean%20UI%20with%20multiple%20chart%20widgets%2C%20professional%20trading%20interface%20with%20candlestick%20charts%20and%20market%20data&width=600&height=400&seq=project-crypto-001&orientation=landscape',
@@ -20,14 +62,37 @@ export default function Projects() {
         performance: 'Sub-second',
         uptime: '99.9%'
       },
-      github: 'https://github.com/goutam-roy',
+      github: 'https://github.com/Goutam245/Cryptocurrency-Dashboard',
       demo: 'https://cryptocurrency-dashboard-fawn.vercel.app/',
       status: 'Production-Ready'
     },
+   
+    {
+      title: 'Global Communication Translation Platform',
+      description: 'Global Communication Platform Enterprise-grade real-time translation solution built with vanilla JavaScript, enabling instant multilingual communication without external API dependencies or server costs.',
+      image: 'https://i.ibb.co/0jrRSgHh/Translator.jpg',
+      tech: ['Vanilla JavaScript', 'HTML5', 'CSS3', 'Web APIs PWA', 'Responsive Design'],
+      features: [
+        'Real-time text translation engine',
+        '25+ language pairs support',
+        'Offline-first architecture',
+        'Browser-native implementation',
+        'PWA capabilities'
+      ],
+      metrics: {
+        1000: 'Active Users',
+        languages: '25+',
+        Uptime: '99.9%'
+      },
+      github: 'https://github.com/Goutam245/Language-Translator-Web-Application',
+      demo: 'https://language-translator-web-application-seven.vercel.app/',
+      status: 'Enterprise Scale'
+    },
+    
     {
       title: 'Real Estate Marketplace Platform',
       description: 'Enterprise-scale property listing platform with advanced search algorithms, geolocation services, and 95+ PageSpeed score optimization.',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20real%20estate%20marketplace%20website%20interface%20with%20property%20listings%2C%20search%20filters%2C%20and%20map%20integration%2C%20clean%20professional%20design%20with%20property%20cards%20and%20advanced%20filtering%20options%2C%20contemporary%20real%20estate%20platform%20with%20mobile-first%20responsive%20design&width=600&height=400&seq=project-realestate-001&orientation=landscape',
+      image: 'https://i.ibb.co/bMLk8zPB/Screenshot-2025-07-27-190502.jpg',
       tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Geolocation', 'Advanced Routing'],
       features: [
         'Advanced search algorithms',
@@ -41,35 +106,35 @@ export default function Projects() {
         performance: 'Mobile-first',
         seo: 'Optimized'
       },
-      github: 'https://github.com/goutam-roy',
-      demo: 'https://real-estate-listing-site.vercel.app/',
+      github: 'https://github.com/Goutam245/Real-estate-listing-site',
+      demo: 'https://real-estate-listing-site-ketf.vercel.app/',
       status: 'Enterprise Scale'
     },
+    
     {
-      title: 'Professional CV Builder SaaS',
-      description: 'SaaS platform serving 10,000+ users with 90+ developers adoption. Reduced manual formatting by 80% with viral adoption in developer communities.',
-      image: 'https://readdy.ai/api/search-image?query=Professional%20CV%20builder%20application%20interface%20with%20template%20selection%2C%20real-time%20preview%2C%20and%20modern%20design%2C%20clean%20SaaS%20platform%20with%20resume%20templates%20and%20editing%20tools%2C%20contemporary%20document%20builder%20with%20professional%20layouts%20and%20formatting%20options&width=600&height=400&seq=project-cv-001&orientation=landscape',
+      title: 'Ultimate Gaming Website',
+      description: 'A modern gaming hub where enthusiasts unite to explore, compete, and discover new digital worlds. Built with cutting-edge web technologies, this platform serves gamers of all levels, from casual players to esports champions.',
+      image: 'https://i.ibb.co/sdVkCCvH/game.jpg',
       tech: ['React', 'PDF Generation', 'LocalStorage', 'Template System', 'Real-time Preview'],
       features: [
-        'Multiple template system',
-        'Real-time preview',
-        'PDF export functionality',
-        'Local storage optimization',
-        'Viral adoption features'
+        'Smooth Framer Motion animations & micro-interactions',
+        'Advanced search with real-time autocomplete',
+        'Dark/Light theme toggle with smooth transitions',
+        'PWA capabilities for offline functionality'
       ],
       metrics: {
-        users: '10,000+',
-        developers: '90+',
-        efficiency: '80% faster'
+       users: '1900+',
+        competitors: '3x faster',
+        PageSpeed: '95+ Score'
       },
-      github: 'https://github.com/goutam-roy',
-      demo: 'https://professional-cv-builder-six.vercel.app/',
-      status: 'SaaS Platform'
+      github: 'https://github.com/Goutam245/Ultimate-Game-Website-',
+      demo: 'https://ultimate-game-website.vercel.app/',
+      status: 'Gaming Platform'
     },
     {
       title: 'E-commerce Platform',
       description: 'Full-featured production-ready online store with payment integration, user authentication, and comprehensive order management system.',
-      image: 'https://readdy.ai/api/search-image?query=Modern%20e-commerce%20website%20interface%20with%20product%20listings%2C%20shopping%20cart%2C%20and%20clean%20professional%20design%2C%20online%20store%20with%20product%20grid%2C%20search%20functionality%2C%20and%20contemporary%20UI%20design%2C%20responsive%20e-commerce%20platform%20with%20product%20details%20and%20checkout%20process&width=600&height=400&seq=project-ecommerce-002&orientation=landscape',
+      image: 'https://i.ibb.co/sdmdqc4Z/e-commarce.jpg',
       tech: ['Next.js', 'React', 'Payment Integration', 'User Authentication', 'Order Management'],
       features: [
         'Payment gateway integration',
@@ -83,9 +148,30 @@ export default function Projects() {
         users: 'Multi-user',
         features: 'Full-stack'
       },
-      github: 'https://github.com/goutam-roy',
+      github: 'https://github.com/Goutam245/E-commarce-Website',
       demo: 'https://e-commarce-website.vercel.app/',
       status: 'Production-Ready'
+    },
+    {
+      title: 'Seaside Stay Resort Platform',
+      description: 'Premium hospitality website engineered with React.js and modern web technologies, delivering luxury digital experiences for coastal resort bookings. Features advanced booking system, immersive galleries, and mobile-optimized performance targeting affluent travelers.',
+      image: 'https://i.ibb.co/h1x0H7qL/res.jpg',
+      tech: ['Next.js', 'React', 'real-time booking', 'TypeScript', 'Order Management'],
+      features: [
+        'Luxury coastal resort website with advanced booking system',
+        '95+ PageSpeed score, 65% conversion rate improvement',
+        'Virtual tours, real-time booking, mobile-optimized design',
+        'Order tracking',
+        'Responsive design'
+      ],
+      metrics: {
+        Performance: '95+ Page Speed ',
+        Impact: 'Multi-user',
+        features: 'Virtual tours'
+      },
+      github: 'https://github.com/Goutam245/Seaside-Stay-Resort-Platform',
+      demo: 'https://seaside-stay-resort-platform-y7ae.vercel.app/',
+      status: 'Virtual tours'
     },
     {
       title: 'AI Agent Interface',
@@ -104,14 +190,14 @@ export default function Projects() {
         innovation: 'AI/ML',
         interface: 'Modern'
       },
-      github: 'https://github.com/goutam-roy',
+      github: 'https://github.com/Goutam245/AI-Agent',
       demo: 'https://ai-agent-eta-gilt.vercel.app/',
       status: 'Cutting-Edge'
     },
     {
-      title: 'Marketplace Platform (Fiverr-like)',
+      title: 'Marketplace Platform (Fiverr-Clone)',
       description: 'Complex multi-vendor marketplace with sophisticated user flows, service listings, review systems, and comprehensive marketplace dynamics.',
-      image: 'https://readdy.ai/api/search-image?query=Multi-vendor%20marketplace%20interface%20similar%20to%20Fiverr%20with%20service%20listings%2C%20user%20profiles%2C%20and%20review%20systems%2C%20professional%20freelance%20marketplace%20with%20clean%20design%2C%20service%20provider%20platform%20with%20modern%20UI%20and%20user%20management%20features&width=600&height=400&seq=project-marketplace-001&orientation=landscape',
+      image: 'https://i.ibb.co/5hnxfnx1/fiver.jpg',
       tech: ['React', 'User Management', 'Service Listings', 'Review System', 'Multi-vendor'],
       features: [
         'Multi-vendor architecture',
@@ -125,7 +211,7 @@ export default function Projects() {
         vendors: 'Multi-vendor',
         architecture: 'Complex'
       },
-      github: 'https://github.com/goutam-roy',
+      github: 'https://github.com/Goutam245/Fiverr-Clone',
       demo: 'https://fiverr-clone-steel.vercel.app/',
       status: 'Complex Architecture'
     }
@@ -274,7 +360,7 @@ export default function Projects() {
               All projects are live, production-ready, and demonstrate enterprise-scale engineering capabilities
             </p>
             <a
-              href="https://github.com/goutam-roy"
+              href="https://github.com/Goutam245"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-flex items-center cursor-pointer whitespace-nowrap"

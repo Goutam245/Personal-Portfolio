@@ -101,16 +101,16 @@ export default function About() {
             About Me
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Passionate about building scalable, high-performance applications that solve real-world problems
+            Architecting high-performance solutions for complex enterprise challenges.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="https://readdy.ai/api/search-image?query=Professional%20software%20engineer%20portrait%2C%20young%20confident%20developer%20in%20modern%20office%20setting%2C%20clean%20professional%20headshot%20with%20subtle%20tech%20background%2C%20contemporary%20business%20casual%20attire%2C%20friendly%20approachable%20expression%2C%20high-quality%20professional%20photography%20with%20soft%20lighting%20and%20clean%20background&width=600&height=600&seq=about-photo-001&orientation=squarish"
+              src="https://i.ibb.co/jkKSQxGC/photo-2025-01-03-08-32-29.jpg"
               alt="Goutam Roy"
-              className="rounded-2xl shadow-2xl object-cover object-top w-full h-[500px]"
+              className="rounded-2xl shadow-2xl object-cover object-top w-full h-[600px]"
             />
           </div>
           
