@@ -449,6 +449,9 @@ video {
 .inset-0{
   inset: 0px;
 }
+.inset-4{
+  inset: 1rem;
+}
 .bottom-8{
   bottom: 2rem;
 }
