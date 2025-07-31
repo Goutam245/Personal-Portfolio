@@ -36,6 +36,28 @@ export default function Skills() {
       ]
     },
     {
+      title: 'Technical Writing & Content Strategy',
+      icon: 'ri-article-fill',
+      skills: [
+        { name: 'API Documentation (Swagger/OpenAPI) ', level: 90 },
+        { name: 'SEO Content Optimization', level: 85 },
+        { name: 'Technical Guides & Documentation', level: 88 },
+        { name: 'Content Strategy & Planning', level: 82 },
+        { name: 'Performance Analytics (GA4)', level: 85 }
+      ]
+    },
+    {
+      title: 'Technical Tools Proficiency',
+      icon: 'ri-app-store-line',
+      skills: [
+        { name: 'Notion & Documentation Systems', level: 90 },
+        { name: 'JIRA & Project Management', level: 85 },
+        { name: 'Postman & API Testing', level: 88 },
+        { name: 'Confluence & Documentation', level: 82 },
+        { name: 'MadCap Flare & Documentation', level: 85 }
+      ]
+    },
+    {
       title: 'Leadership & Soft Skills',
       icon: 'ri-team-line',
       skills: [
@@ -50,27 +72,52 @@ export default function Skills() {
 
   const certifications = [
     {
+      name: 'Full-Stack Development (React, Node.js, MongoDB)',
+      issuer: 'Programming Hero',
+      year: '2025',
+      icon: 'ri-award-line'
+    },
+    {
+      name: 'Advanced React & Performance Optimization',
+      issuer: 'Google Certification',
+      year: '2024',
+      icon: 'ri-award-line'
+    },
+    {
+      name: 'UI/UX Design Systems Certification',
+      issuer: 'Udemy (Instructor: Matt Diggity)',
+      year: '2024',
+      icon: 'ri-award-line'
+    },
+    {
       name: 'AWS Certified Solutions Architect',
       issuer: 'Amazon Web Services',
       year: '2023',
       icon: 'ri-award-line'
     },
     {
-      name: 'Google Cloud Professional',
-      issuer: 'Google Cloud Platform',
+      name: 'Technical Writing Mastery',
+      issuer: 'Google Certification',
       year: '2023',
       icon: 'ri-award-line'
     },
     {
-      name: 'React Advanced Certification',
-      issuer: 'Meta (Facebook)',
+      name: 'Advanced SEO Writing',
+      issuer: 'Google',
+      year: '2022',
+      icon: 'ri-award-line'
+    },
+
+    {
+      name: 'Content Marketing Certified',
+      issuer: 'Coursera',
       year: '2022',
       icon: 'ri-award-line'
     },
     {
       name: 'IELTS Academic 7.5',
       issuer: 'British Council',
-      year: '2023',
+      year: '2024',
       icon: 'ri-global-line'
     }
   ];
@@ -83,7 +130,7 @@ export default function Skills() {
             Technical Mastery
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive skill set spanning frontend, backend, and engineering leadership
+            Full-stack architect with hands-on leadership experience building enterprise-scale applications
           </p>
         </div>
 

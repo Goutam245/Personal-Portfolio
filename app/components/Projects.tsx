@@ -344,7 +344,7 @@ export default function Projects() {
                 <div className="text-blue-100">Total Users Served</div>
               </div>
               <div>
-                <div className="text-3xl font-bold mb-2">6</div>
+                <div className="text-3xl font-bold mb-2">10</div>
                 <div className="text-blue-100">Production Applications</div>
               </div>
               <div>
