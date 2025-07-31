@@ -4,9 +4,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { name: 'LinkedIn', icon: 'ri-linkedin-line', url: 'https://linkedin.com/in/goutam-roy' },
-    { name: 'GitHub', icon: 'ri-github-line', url: 'https://github.com/goutam-roy' },
-    { name: 'Twitter', icon: 'ri-twitter-line', url: 'https://twitter.com/goutam_roy' },
+    { name: 'Linkedin', icon: 'ri-linkedin-box-fill', url: 'https://www.linkedin.com/in/goutam-roy-dev' },
+    { name: 'Leetcode', icon: 'ri-expand-left-right-line', url: 'https://leetcode.com/u/Goutam57/' },
+    { name: 'GitHub', icon: 'ri-github-line', url: 'https://github.com/Goutam245' },
     { name: 'Email', icon: 'ri-mail-line', url: 'mailto:goutam.roy.421917@gmail.com' }
   ];
 
@@ -24,12 +24,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <div className="mb-6">
+            <div className="mb-6"> 
               <h3 className="text-2xl font-bold mb-2">
                 <span className="font-pacifico">Goutam Roy</span>
               </h3>
-              <p className="text-gray-300 text-lg">
-                Frontend Engineer & Technical Leader
+              <p className="text-gray-300 text-lg"> Frontend Developer & Technical Writer 
+                
               </p>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">

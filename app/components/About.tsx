@@ -29,7 +29,7 @@ export default function About() {
       degree: 'Bachelor of Computer Science',
       institution: 'City University Bangladesh',
       duration: '2025-2028',
-      focus: 'AI, Machine Learning, Data Structures, Software Development',
+      focus: 'Artificial Intelligence, Machine Learning, Data Structures, Software Development, Networking, Data Visualization',
       status: 'In Progress'
     },
     {
@@ -51,7 +51,7 @@ export default function About() {
     {
       name: 'Advanced React & Performance Optimization',
       issuer: 'Google',
-      year: '2023',
+      year: '2024',
       icon: 'ri-google-fill'
     },
     
@@ -60,7 +60,8 @@ export default function About() {
       issuer: 'Udemy',
       year: '2023',
       icon: 'ri-palette-line'
-    }
+    },
+
   ];
 
   const globalReadiness = [

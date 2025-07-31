@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Pacifico } from "next/font/google";
 import "./globals.css";
 
 const pacifico = Pacifico({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-pacifico',
-})
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-pacifico",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,23 +19,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// ✅ Correct usage of metadata
 export const metadata: Metadata = {
   title: "Goutam Roy - Frontend Engineer & Technical Leader",
-  description: "Award-winning Frontend Architect with 2+ years building enterprise-scale applications. Ready for Staff Engineer trajectory at top-tier technology companies.",
-  keywords: "Frontend Engineer, React Developer, Technical Leader, Software Engineer, Full Stack Developer",
+  description:
+    "Award-winning Frontend Architect with 2+ years building enterprise-scale applications. Ready for Staff Engineer trajectory at top-tier technology companies.",
+  keywords:
+    "Frontend Engineer, React Developer, Technical Leader, Software Engineer, Full Stack Developer",
   authors: [{ name: "Goutam Roy" }],
   openGraph: {
     title: "Goutam Roy - Frontend Engineer & Technical Leader",
-    description: "Award-winning Frontend Architect with 2+ years building enterprise-scale applications",
+    description:
+      "Award-winning Frontend Architect with 2+ years building enterprise-scale applications",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "Goutam Roy - Frontend Engineer & Technical Leader",
-    description: "Award-winning Frontend Architect with 2+ years building enterprise-scale applications",
+    description:
+      "Award-winning Frontend Architect with 2+ years building enterprise-scale applications",
   },
-  viewport: "width=device-width, initial-scale=1",
+};
+
+// ✅ Moved viewport to correct export
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

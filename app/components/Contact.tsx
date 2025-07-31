@@ -72,12 +72,12 @@ export default function Contact() {
       value: 'leetcode.com/in/Goutam57',
       action: 'https://leetcode.com/u/Goutam57/'
     },
-    // {
-    //   icon: 'ri-linkedin-line',
-    //   title: 'LinkedIn',
-    //   value: 'linkedin.com/in/goutam-roy',
-    //   action: 'https://linkedin.com/in/goutam-roy'
-    // },
+    {
+      icon: 'ri-linkedin-box-fill',
+      title: 'LinkedIn',
+      value: 'linkedin.com/in/goutam-roy-dev',
+      action: 'https://www.linkedin.com/in/goutam-roy-dev'
+    },
     {
       icon: 'ri-github-line',
       title: 'GitHub',
