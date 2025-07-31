@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 // ✅ Correct usage of metadata
 export const metadata: Metadata = {
-  title: "Goutam Roy - Frontend Engineer & Technical Leader",
+  title: "Goutam Roy - Frontend Engineer & Technical Writer",
   description:
     "Award-winning Frontend Architect with 2+ years building enterprise-scale applications. Ready for Staff Engineer trajectory at top-tier technology companies.",
   keywords:
